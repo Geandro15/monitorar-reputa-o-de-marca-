@@ -2,13 +2,13 @@
 
 Painel interativo (Streamlit) que simula o monitoramento de reputação de uma marca nas redes sociais e compara diferentes técnicas de Inteligência Artificial para classificar o sentimento de menções (clientes, comentários, avaliações).
 
-Este documento explica o que foi entregue, para que serve cada parte, e como colocar para rodar — sem exigir conhecimento técnico.
+Este documento explica o que foi entregue, para que serve cada parte, e como colocar para rodar sem exigir conhecimento técnico.
 
 ---
 
 ## 1. Qual problema isso resolve
 
-Toda marca recebe menções em redes sociais, avaliações e comentários — parte delas elogia, parte reclama, parte só faz perguntas. Acompanhar isso manualmente não escala. Este painel automatiza essa leitura, classificando cada menção como:
+Toda marca recebe menções em redes sociais, avaliações e comentários parte delas elogia, parte reclama, parte só faz perguntas. Acompanhar isso manualmente não escala. Este painel automatiza essa leitura, classificando cada menção como:
 
 | Classificação | O que significa | Uso no negócio |
 |---|---|---|
@@ -97,7 +97,7 @@ Na prática, muitas empresas combinam as duas pontas: uma técnica rápida para 
 
 ## 6. Limitações importantes (ler antes de apresentar para terceiros)
 
-- **Datas simuladas**: o dataset em inglês é de 2009 e não tem data útil para uma demonstração de "monitoramento recente" — por isso o painel gera datas aleatórias dos últimos 30 dias só para ilustrar o gráfico de tendência. Isso é sinalizado no rodapé de cada página.
+- **Datas simuladas**: o dataset em inglês é de 2009 e não tem data útil para uma demonstração de "monitoramento recente" por isso o painel gera datas aleatórias dos últimos 30 dias só para ilustrar o gráfico de tendência. Isso é sinalizado no rodapé de cada página.
 - **Dataset em português é sintético**: foi gerado por templates (frases combinadas automaticamente), não são menções reais de clientes. Serve para demonstrar o funcionamento do painel em português. Para uso real, é necessário substituir por um dataset de menções verdadeiras (ver seção 7).
 - **VADER não funciona bem em português**: é um dicionário de sentimento feito para inglês. Ao usar o dataset em português, prefira os resultados de ML Clássico/Deep Learning.
 - **Todos os dados são de exemplo**: este painel foi construído para demonstrar a capacidade da solução, não para tomar decisões reais de negócio ainda.
