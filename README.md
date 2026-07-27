@@ -4,6 +4,7 @@ Painel interativo (Streamlit) que simula o monitoramento de reputação de uma m
 
 Este documento explica o que foi entregue, para que serve cada parte, e como colocar para rodar sem exigir conhecimento técnico.
 
+> ⚠️ Datasets de exemplo incluídos no repositório (o em português é sintético, gerado por templates; o em inglês é real mas de 2009). Veja a seção 6 para usar com dados reais da sua marca.
 ---
 
 ## 1. Qual problema isso resolve
@@ -16,7 +17,7 @@ Toda marca recebe menções em redes sociais, avaliações e comentários parte 
 | ⚪ **Neutro** | Menção informativa, dúvida, sem carga emocional forte | Mapear dúvidas frequentes (oportunidade de melhorar FAQ/comunicação) |
 | 🔴 **Negativo** | Reclamação, frustração, insatisfação | Sinaliza risco de perda de clientes e de crise de reputação — normalmente pede resposta rápida |
 
-Acompanhar a **proporção** dessas três categorias ao longo do tempo ajuda a perceber uma crise começando antes que ela cresça — por isso o painel tem um alerta automático para dias com muitas menções negativas.
+Acompanhar a **proporção** dessas três categorias ao longo do tempo ajuda a perceber uma crise começando antes que ela cresça por isso o painel tem um alerta automático para dias com muitas menções negativas.
 
 ---
 
